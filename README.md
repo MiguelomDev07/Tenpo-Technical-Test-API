@@ -35,7 +35,7 @@
 * Servidor Externo Simulado: se levanta automaticamente en conjunto con la API Java SpringBoot. Use los Endpoints del Servidor Externo Mockeado 
 en la parte superior de la documentacion grafica desplegada con "OpenAPI-SWagger-UI".
 
-* Correr imagen bd postgres desde docker local con repositorio remoto publico: docker run -d --name postgres-db-v1 -p 5432:5432 -e DB_HOST=localhost -e DB_USER=postgres -e DB_PASSWORD=postgres -e POSTGRES_PASSWORD=postgres miguelom7/tenpo-technical-test-container-image:v1 
+* Correr imagen bd postgres desde docker local con repositorio remoto publico: docker run -d --name postgres-db-v1 -p 5432:5432 -e DB_HOST=localhost -e DB_USER=postgres -e DB_PASSWORD=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=tenpo_db miguelom7/tenpo-technical-test-container-image:v1
 
 * Repositorio publico en la nube
 	- pueden descargar el repositorio de la prueba tecnica desde mi perfil de cuenta en GitHub:  https://github.com/MiguelomDev07/Tenpo-Technical-Test-API
